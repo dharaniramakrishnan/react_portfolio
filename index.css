@@ -1,0 +1,30 @@
+/* src/index.css */
+:root {
+  --highlight-color: #DDA0DD; /* Plum */
+  --text-color: #333; /* Dark Gray for text */
+  --gradient-start: #fbc2eb; /* Start color for the gradient */
+  --gradient-end: #a6c0fe; /* End color for the gradient */
+  --border-color: #DEE2E6; /* Light Gray for borders */
+  --shadow-light: rgba(0, 0, 0, 0.1); /* Light shadow */
+  --shadow-dark: rgba(0, 0, 0, 0.2); /* Darker shadow */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+  background-size: 400% 400%;
+  animation: gradientAnimation 20s ease infinite;
+  color: var(--text-color);
+  min-height: 100vh; /* Ensure the body takes full height */
+}
+
+/* Gradient animation */
+@keyframes gradientAnimation {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+/* Add any additional global styles here */
