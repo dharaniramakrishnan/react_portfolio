@@ -1,0 +1,34 @@
+/* src/components/Papers.css */
+section#papers {
+    background: linear-gradient(135deg, #fbc2eb, #a6c0fe); /* Gradient background */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 40px;
+    max-width: 800px;
+    margin: 40px auto; /* Centering the section */
+  }
+  
+  section#papers h2 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .paper-item {
+    background-color: #ffffff; /* White background for paper items */
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 0; /* Space between items */
+    font-size: 1.2em;
+    color: #343a40;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .paper-item:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  }
+  

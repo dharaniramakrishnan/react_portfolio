@@ -1,0 +1,51 @@
+/* src/Header.css */
+header {
+  background: linear-gradient(135deg, #fbc2eb, #a6c0fe); /* Gradient background */
+  padding: 15px 30px; /* Padding around the header */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for a subtle 3D effect */
+  display: flex;
+  justify-content: center; /* Center-align the nav */
+  position: fixed; /* Fix the header at the top */
+  width: 100%; /* Full width */
+  top: 0; /* Position at the top */
+  z-index: 1000; /* Ensure it sits above other content */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 20px; /* Space between nav items */
+}
+
+nav a {
+  text-decoration: none;
+  color: #333; /* Dark gray text color for general links */
+  font-size: 1.2em; /* Larger font size for readability */
+  font-weight: bold; /* Bold text for emphasis */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+  color: #ff7e5f; /* Highlight color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    padding: 10px 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 10px 0; /* Space between items in vertical layout */
+  }
+}
