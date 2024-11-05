@@ -1,4 +1,13 @@
 # Getting Started with Create React App
+# output:
+![image](https://github.com/user-attachments/assets/d88dc797-c183-4aae-9caf-2988905df3bf)
+# description :
+In a React application, components are the building blocks used to create the user interface (UI). Each component is a self-contained, reusable piece of code that represents a part of the UI. Here’s a description of different types of components and how they are used in React:
+
+1. Functional Components
+Description: Functional components are JavaScript functions that return React elements (i.e., the UI for that component). They are simpler, easier to read, and manage since they are usually stateless (do not manage their own state directly).
+Usage: Functional components are ideal for simple UIs that don’t need complex logic or local state. They can now use hooks like useState and useEffect to manage state and lifecycle, making them suitable for most cases in modern React development.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
